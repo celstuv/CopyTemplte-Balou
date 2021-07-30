@@ -1,0 +1,182 @@
+.debug {
+  height: 100px;
+  background-color: cornflowerblue;
+}
+
+
+*[class^="col"],
+.container,
+.containerMarge {
+  /* border: 1px solid grey; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  background-color: #e2e9ee;
+}
+
+.containerMarge {
+margin: 0 30px;  
+background-color: #FFF;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: -5px;
+  padding-right: -5px;
+}
+
+.rowNoWrap {
+  display: flex;
+  flex-wrap:nowrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: -5px;
+  padding-right: -5px;
+}
+
+
+*[class^="col"] {
+  /*sélection des classes qui commencent par col*/
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+.col {
+  width: auto;
+  flex-grow: 1;
+}
+
+.col16 {
+width: calc(100%-33%)-60px;/*66% = 10,56px*/
+margin: 30px;
+align-items: center;
+/* background-color: lightcoral; */
+}
+
+.col20{
+    width: 20%; /*calc(100% / 4)*/
+  /* background-color: lightgoldenrodyellow; */
+
+}
+.col25 {
+  width: 25%; /*calc(100% / 4)*/
+  /* background-color: yellow; */
+}
+
+.col33 {
+  width: calc(100% / 3);
+  /* background-color: pink; */
+}
+
+.col40 {
+  width: calc(100% / 2.5);
+  /* background-color: orange; */
+}
+
+
+.col50 {
+  width: calc(100% / 2);
+  /* background-color: orange; */
+}
+
+.col66 {
+  width: 66%;
+  
+}
+
+.col75 {
+  width: 75%;
+  /* background-color: red; */
+}
+
+.col85 {
+  width: 85%;
+}
+
+.col100 {
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+
+
+@media screen and (max-width: 1220) {
+  .container {
+    width: 960px;
+  }
+
+  
+}
+
+@media screen and (max-width: 990px) {
+  .container {
+    width: 768px;
+  }
+  .col-md-25 {
+    width: 25%; /*calc(100% / 4)*/
+  }
+
+  .col-md-33 {
+    width: calc(100% / 3);
+  }
+
+  .col-md-50 {
+    width: calc(100% / 2);
+  }
+
+  .col-md-66 {
+    width: 66%;
+  }
+
+  .col-md-75 {
+    width: 75%;
+  }
+
+
+  .col-md-100 {
+    width: 100%;
+  }
+
+
+
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    width: 100%;
+  }
+    .col-xs-25 {
+    width: 25%; /*calc(100% / 4)*/
+  }
+
+  .col-xs-33 {
+    width: calc(100% / 3);
+  }
+
+  .col-xs-50 {
+    width: calc(100% / 2);
+  }
+
+  .col-xs-66 {
+    width: 66%;
+  }
+
+  .col-xs-75 {
+    width: 75%;
+  }
+
+  .col-xs-100 {
+    width: 100%;
+  }
+
+}

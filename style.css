@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+/*******************/
+/****** header *****/
+/*******************/
+header {
+  background-color: #e2e9ee;
+}
+
+/* Groupe Menus */
+.groupeMenus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  z-index: 10;
+}
+
+.menu a {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.liste a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  top: 20px;
+  left: 0;
+  position: absolute;
+  background: #26244c;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.liste a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.Menu1,
+.Menu2,
+.logo {
+  width: 33%;
+}
+
+.groupeMenus ul li {
+  list-style: none;
+}
+
+.Menu1 {
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.liste {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*bouton Product*/
+.dropButton {
+  border: none;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+  z-index: 10;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.contenant-dropdown-content {
+  background-color: #f2f5f7;
+  margin-top: 25px;
+}
+
+.dropdown-content .contenant-dropdown-content a {
+  display: block;
+  padding: 15px;
+  letter-spacing: 1.5px;
+  line-height: 5px;
+  color: #b2b1bf;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  margin-left: 120px;
+}
+
+.dropdown-content .contenant-dropdown-content a:hover {
+  color: #26244c;
+}
+
+/*Slider1*/
+.slider1 {
+  height: 868px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titre {
+  color: #fff;
+  z-index: 10;
+}
+
+.titre h1 {
+  font-size: 120px;
+  font-weight: 700;
+}
+
+.titre p {
+  font-weight: 600;
+}
+
+.titre .btn {
+  padding-top: 150px;
+}
+
+/*****************************/
+/****** gallery image 1 *****/
+/***************************/
+
+.galleryImg1 .col33,
+.galleryImg1 .col50 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+  height: 600px;
+  padding: 30px;
+}
+
+.galleryImg1 .img1 {
+  background-image: url("images/products-post-crochet-teddy-bear-teaser-bg-square-39e87225.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.galleryImg1 .img2 {
+  background-image: url("images/products-post-crochet-wooden-toy-ring-teaser-bg-square-09d5d7dd.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.galleryImg1 .img3 {
+  background-image: url("images/products-post-baby-bear-suit-teaser-bg-square-7dd27272.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.galleryImg1 .img4 {
+  background-image: url("images/products-post-cuddly-blanket-teaser-bg-landscape-3472db08.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.galleryImg1 .img5 {
+  background-image: url("images/products-post-knitted-baby-suit-with-a-bobble-hat-teaser-bg-landscape-1ea011b1.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.galleryImg1 p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.galleryImg1 span,
+.copyright span {
+  font-family: "Raleway", "sens-serif";
+  font-size: 13px;
+  font-weight: 400;
+  color: #a8a7b7;
+  text-transform: none;
+}
+
+.galleryImg1 .img3 p,
+.galleryImg1 .img4 p {
+  color: #fff;
+}
+
+/**********************/
+/****** Products *****/
+/*********************/
+#products {
+  padding-top: 120px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 600px;
+}
+
+.products h2 {
+  font-size: 34px;
+  font-size: 600;
+}
+
+.item {
+  position: absolute;
+}
+
+.item1 {
+  /*planet*/
+  top: 70px;
+  left: 0;
+}
+
+.item2 {
+  /*rocket*/
+  top: 50px;
+  right: 450px;
+}
+
+.item3 {
+  /*cloud*/
+  top: 200px;
+  right: 110px;
+}
+
+.item4 {
+  /*star*/
+  left: 350px;
+  bottom: -15px;
+}
+
+.item5 {
+  /*balloon*/
+  bottom: -150px;
+  right: 320px;
+  z-index: 10;
+}
+
+/******************************/
+/****** Gallery 6 Products *****/
+/****************************/
+
+.galleryProducts p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.galleryProducts .col16:hover {
+  color: rgba(38, 36, 76, 0.6);
+}
+
+.wprock-img-zoom-hover .wprock-img-zoom {
+  overflow: hidden;
+  position: relative;
+}
+
+.wprock-img-zoom-hover .wprock-img-zoom img {
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+
+.wprock-img-zoom-hover:hover .wprock-img-zoom img {
+  -moz-transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+}
+/*****************************/
+/****** Mother and shop *****/
+/***************************/
+.motherShopGrid {
+  padding: 50px 100px;
+}
+.motherShop {
+  height: 800px;
+}
+
+.motherShop .texte {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+.imageMere {
+  background-image: url("images/home-about-bb2a564e.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shop {
+  background-image: url("images/home-contact-255a6bb8.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.paragraphe {
+  margin: 0 5px;
+  padding: 0 5px;
+  width: auto;
+}
+.paragraphe p,
+.paragraphe a {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Raleway", "sans-serif";
+  color: #515070;
+}
+
+.contact,
+.hours {
+  margin-top: 15px;
+}
+
+.bird {
+  position: absolute;
+  left: 12%;
+  top: 5%;
+}
+.rainbow {
+  position: absolute;
+  bottom: 5%;
+  left: -15%;
+}
+.cupcake {
+  position: absolute;
+  top: -15%;
+  left: 0;
+  display: block;
+}
+
+.sun {
+  position: absolute;
+  bottom: 0;
+  left: 37%;
+}
+
+.bear {
+  position: absolute;
+  bottom: 80px;
+  right: 5%;
+  display: block;
+}
+
+.btnContact {
+  width: 0;
+}
+
+/***********************/
+/****** Caroussel *****/
+/*********************/
+
+.slide {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 200px;
+}
+
+.slide1 {
+  background-image: url("images/home-slider-01-d97295cb.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide2 {
+  background-image: url("images/home-slider-05-40ce38fa.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide3 {
+  background-image: url("images/home-slider-06-b11b879e.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide4 {
+  background-image: url("images/home-slider-03-78144073.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide5 {
+  background-image: url("images/home-slider-02-28a72aaf.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide6 {
+  background-image: url("images/home-slider-04-107d5226.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/***********************/
+/****** footer *****/
+/*********************/
+footer {
+  background-color: transparent;
+margin: 0;
+}
+ .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+
+.footer p:first-child {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0%;
+  margin: 0;
+}
+
+.footer .keepLogo,
+.footer .newsMenus{
+  flex-direction: column;
+}
+
+
+footer .logo img {
+  width: 35%;
+  margin-top: 70px;
+}
+
+form {
+  padding: 25px;
+  width: auto;
+} 
+
+input[type="email"] {
+  border: none;
+  width: 90%;
+  padding: 25px;
+  background-color: #f2f5f7;
+  cursor: pointer;
+}
+
+input[type="email"]::placeholder {
+  color: #a8a7b7;
+  font-family: "Raleway", "sans-serif";
+  font-size: 15px;
+  text-align: left;
+  font-weight: 400;
+}
+
+input[type="email"]:focus,
+input[type="submit"]:focus {
+  outline: none;
+  background-color: #dfdede;
+}
+
+button {
+  background: url("images/send_mail_icon.svg");
+  background-repeat: no-repeat;
+  width: 50px;
+  right: 50px;
+  border: none;
+  padding: 22px;
+  position: relative;
+}
+
+
+.newsMenus .col33 ul {
+  list-style-type: none;
+}
+
+.newsMenus .col33 ul li:nth-child(1) {
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+
+.footer .col33 ul li {
+  padding-bottom: 10px;
+}
+
+.copyright {
+  background-color: #515070;
+} 
