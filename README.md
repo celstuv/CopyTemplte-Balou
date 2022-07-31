@@ -6,6 +6,8 @@ Révision des bases abordées :
 
 Html5 / CSS3 Parent / enfant Position relative / absolute Flexbox
 
+Voir le résultat : https://celstuv.github.io/Template-Balou.github.io/
+
 ------------------------------------------------------------------------
 
 Project: Copy a theme for the HTML/CSS course of the Digital Project Manager training
@@ -26,3 +28,6 @@ https://www.w3schools.com/css/css_positioning.asp
 https://www.w3schools.com/css/css3_flexbox.asp 
 https://www.w3schools.com/css/css_margin.asp 
 https://www.w3schools.com/css/css_padding.asp
+
+
+View result here : https://celstuv.github.io/Template-Balou.github.io/
