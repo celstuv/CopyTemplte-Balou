@@ -1,4 +1,4 @@
-Projet : Copier la homepage d'un thème dans le cadre du TP HTML/CSS de la formation Chef de projet Digital - (asans le responsive)
+Projet : Copier la homepage d'un thème dans le cadre du TP HTML/CSS de la formation Chef de projet Digital - (sans le responsive)
 
 Le thème à copier : Yoko de Wordpress : https://yootheme.com/joomla-templates/balou
 
@@ -10,7 +10,7 @@ Voir le résultat : https://celstuv.github.io/Template-Balou.github.io/
 
 ------------------------------------------------------------------------
 
-Project: Copy a theme for the HTML/CSS course of the Digital Project Manager training
+Project: Copy a theme's homepage for the HTML/CSS course of the Digital Project Manager training - (without responsive)
 
 The theme to copy : Yoko from Wordpress : https://yootheme.com/joomla-templates/balou
 
