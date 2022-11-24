@@ -1,4 +1,4 @@
-Projet : Copier un thème dans le cadre du TP HTML/CSS de la formation Chef de projet Digital
+Projet : Copier la homepage d'un thème dans le cadre du TP HTML/CSS de la formation Chef de projet Digital - (asans le responsive)
 
 Le thème à copier : Yoko de Wordpress : https://yootheme.com/joomla-templates/balou
 
